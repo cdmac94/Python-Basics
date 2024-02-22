@@ -9,6 +9,12 @@ question = "Do dinosaurs still live??"
 answer = ""
 random_number = random.randint(1,9)
 
+# the meaning of life question
+
+if question == "What is the meaning of life?":
+  random_number = 10
+
+
 # potential answers with conditionals
 if random_number == 1:
   answer = "Yes - definitely"
@@ -28,6 +34,8 @@ elif random_number == 8:
   answer = "Outlook not so good"
 elif random_number == 9:
   answer = "Very doubtful"
+elif random_number == 10:
+  answer = "42"
 else:
   answer = "Error"
 
